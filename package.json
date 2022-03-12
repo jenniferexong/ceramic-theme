@@ -1,0 +1,25 @@
+{
+    "name": "ceramic-theme",
+    "displayName": "Ceramic",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "jenniferexong",
+    "author": {
+        "name": "Jennifer Ong"
+    },
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ceramic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ceramic-color-theme.json"
+            }
+        ]
+    }
+}
