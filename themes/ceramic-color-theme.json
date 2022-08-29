@@ -114,6 +114,11 @@
     "terminal.selectionBackground": "#000000",
     "terminalCursor.foreground": "#7b7b7b",
 
+    "debugConsole.warningForeground": "#645e3b",
+    "debugConsole.errorForeground": "#7c4646",
+    "debugConsole.sourceForeground": "#5c7252",
+    "debugConsole.infoForeground": "#335671",
+
     "breadcrumb.foreground": "#57533d",
     "breadcrumb.focusForeground": "#807d54",
 
