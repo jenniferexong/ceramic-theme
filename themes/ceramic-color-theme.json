@@ -142,7 +142,7 @@
     "debugConsole.sourceForeground": "#295c0f",
     "debugConsole.infoForeground": "#3d607a",
 
-    "breadcrumb.foreground": "#57533d",
+    "breadcrumb.foreground": "#545036",
     "breadcrumb.focusForeground": "#807d54",
 
     "list.activeSelectionBackground": "#0c0c0c",
@@ -165,8 +165,8 @@
     "keybindingLabel.border": "#00000000",
     "keybindingLabel.bottomBorder": "#00000000",
 
-    "textLink.foreground": "#6d6b4c",
-    "textLink.activeForeground": "#87834a",
+    "textLink.foreground": "#757034",
+    "textLink.activeForeground": "#a09a43",
 
     "statusBar.background": "#000000",
     "statusBar.foreground": "#686456",
@@ -196,7 +196,24 @@
     "notifications.background": "#000000",
     "notifications.foreground": "#656351",
     "notificationsInfoIcon.foreground": "#b1a9a9",
-    "notificationsErrorIcon.foreground": "#8c4d4d"
+    "notificationsErrorIcon.foreground": "#8c4d4d",
+
+    "symbolIcon.variableForeground": "#1e6d56",
+    "symbolIcon.functionForeground": "#1d6870",
+    "symbolIcon.methodForeground": "#1d6870",
+    "symbolIcon.interfaceForeground": "#71714f",
+    "symbolIcon.classForeground": "#796344",
+    "symbolIcon.constructorForeground": "#796344",
+    "symbolIcon.propertyForeground": "#4f6f56",
+    "symbolIcon.keywordForeground": "#5b673e",
+    "symbolIcon.namespaceForeground": "#637b83",
+    "symbolIcon.arrayForeground": "#336278",
+    "symbolIcon.booleanForeground": "#39657f",
+    "symbolIcon.constantForeground": "#39657f",
+    "symbolIcon.fieldForeground": "#4f6f56",
+    "symbolIcon.typeParameterForeground": "#717152",
+    "symbolIcon.moduleForeground": "#9c673f",
+    "symbolIcon.stringForeground": "#828282"
   },
 
   "semanticTokenColors": {
