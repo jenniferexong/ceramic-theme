@@ -1,5 +1,6 @@
 ## 0.0.4
 - Adjust git decoration colors
+- Add symbol icon colors
 
 ## 0.0.3
 - Increase color saturation

@@ -11,9 +11,9 @@
     "button.foreground": "#797979",
     "button.hoverBackground": "#11252b",
 
-    "dropdown.background": "#090a0c",
-    "dropdown.border": "#385768",
-    "dropdown.foreground": "#afbace",
+    "dropdown.background": "#0c0c0c",
+    "dropdown.border": "#35332f",
+    "dropdown.foreground": "#7e7753",
 
     "input.background": "#060606",
     "input.foreground": "#888888",
@@ -127,6 +127,7 @@
     "panel.border": "#0d0d0b",
 
     "terminal.ansiBrightYellow": "#888231",
+    "terminal.ansiYellow": "#888231",
     "terminal.ansiBrightGreen": "#696417",
     "terminal.ansiBlue": "#3d607a",
     "terminal.ansiGreen": "#295c0f",
@@ -142,6 +143,26 @@
     "debugConsole.sourceForeground": "#295c0f",
     "debugConsole.infoForeground": "#3d607a",
 
+    "debugIcon.startForeground": "#2e7c35",
+    "debugToolBar.border": "#000000",
+    "debugToolBar.background": "#030303",
+    "debugIcon.pauseForeground": "#b2b2b2",
+    "debugIcon.continueForeground": "#7c702c",
+    "debugIcon.stepIntoForeground": "#266f4b",
+    "debugIcon.stepOverForeground": "#798c83",
+    "debugIcon.stepOutForeground": "#7f5924",
+    "debugIcon.restartForeground": "#277690",
+    "debugIcon.stopForeground": "#8f4637",
+    "debugTokenExpression.boolean": "#39657f",
+    "debugTokenExpression.name": "#616c44",
+    "debugTokenExpression.number": "#39657f",
+    "debugTokenExpression.string": "#76553d",
+    "debugTokenExpression.value": "#8c8b85",
+    "debugView.stateLabelBackground": "#2e1919",
+    "debugIcon.breakpointForeground": "#7b2c1e",
+    // debugging location in editor
+    "editor.stackFrameHighlightBackground": "#23270b",
+
     "breadcrumb.foreground": "#545036",
     "breadcrumb.focusForeground": "#807d54",
 
@@ -149,14 +170,14 @@
     "list.inactiveSelectionBackground": "#0c0c0c",
     "list.activeSelectionForeground": "#999589",
     "list.inactiveSelectionForeground": "#999589",
-    "list.highlightForeground": "#7e544b",
+    "list.highlightForeground": "#6b6625",
     "list.hoverBackground": "#0c0c0c",
     "list.dropBackground": "#0c0c0c",
     "list.focusBackground": "#0c0c0c",
 
     // Command palette dropdown thing
     "quickInput.background": "#131313",
-    "quickInput.foreground": "#4d4d4d",
+    "quickInput.foreground": "#636363",
     "quickInputList.focusBackground": "#000000",
     "quickInputList.focusIconForeground": "#857d63",
 
