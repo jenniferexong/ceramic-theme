@@ -98,7 +98,7 @@
 
     "editorGroupHeader.tabsBackground": "#161616",
     "editorGroup.dropBackground": "#000000",
-    "tab.inactiveBackground": "#000000",
+    "tab.inactiveBackground": "#1a1a1a",
     "tab.activeBorder": "#3f4711",
     "tab.activeForeground": "#9b9765",
     "tab.border": "#ffffff00",
@@ -109,21 +109,22 @@
 
     "activityBar.background": "#0b0b0b",
     "activityBar.foreground": "#a4a4a4",
-    "activityBar.border": "#2e2d1d",
     "activityBarBadge.background": "#4b4104",
     "activityBarBadge.foreground": "#ffffff",
 
     // file explorer, etc, background
     "sideBar.background": "#131313",
-    "sideBar.foreground": "#434747",
-    "sideBar.border": "#2e2d1d",
+    "sideBar.foreground": "#575555",
+    "sideBar.border": "#0d0d0b",
     "sideBarSectionHeader.background": "#0a0a0a",
     "sideBarSectionHeader.foreground": "#6b4438",
+    "tree.indentGuidesStroke": "#3d3c19",
 
     // Terminal, output, debug
     "panel.background": "#161616",
-    "panelTitle.activeForeground": "#886b4d",
-    "panel.border": "#2e2d1d",
+    "panelTitle.activeForeground": "#7e5932",
+    "panelTitle.inactiveForeground": "#695e50",
+    "panel.border": "#0d0d0b",
 
     "terminal.ansiBrightYellow": "#888231",
     "terminal.ansiBrightGreen": "#696417",
@@ -146,8 +147,8 @@
 
     "list.activeSelectionBackground": "#0c0c0c",
     "list.inactiveSelectionBackground": "#0c0c0c",
-    "list.activeSelectionForeground": "#86857f",
-    "list.inactiveSelectionForeground": "#86857f",
+    "list.activeSelectionForeground": "#999589",
+    "list.inactiveSelectionForeground": "#999589",
     "list.highlightForeground": "#7e544b",
     "list.hoverBackground": "#0c0c0c",
     "list.dropBackground": "#0c0c0c",
@@ -173,9 +174,12 @@
     "statusBar.debuggingForeground": "#526338",
 
     "gitDecoration.modifiedResourceForeground": "#1f696e",
+    "gitDecoration.stageModifiedResourceForeground": "#1f696e",
+    "gitDecoration.addedResourceForeground": "#716b3a",
     "gitDecoration.untrackedResourceForeground": "#4c6c44",
-    "gitDecoration.deletedResourceForeground": "#936152",
-    "gitDecoration.ignoredResourceForeground": "#583e3e",
+    "gitDecoration.deletedResourceForeground": "#7f3744",
+    "gitDecoration.stageDeletedResourceForeground": "#7f3744",
+    "gitDecoration.ignoredResourceForeground": "#423939",
 
     "menubar.selectionBackground": "#202939",
     "menu.background": "#1b2330",
@@ -183,10 +187,10 @@
     "menu.separatorBackground": "#4b5b79",
 
     // this is used for merge conflicts too
-    "list.errorForeground": "#8e4848",
-    "editorError.foreground": "#ff5555",
-    "list.warningForeground": "#6e6534",
-    "editorWarning.foreground": "#615827",
+    "list.errorForeground": "#7f3b3b",
+    "editorError.foreground": "#ce3e3e",
+    "list.warningForeground": "#7c4a25",
+    "editorWarning.foreground": "#b86428",
     "editorInfo.foreground": "#4397f7",
 
     "notifications.background": "#000000",

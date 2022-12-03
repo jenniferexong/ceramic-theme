@@ -1,9 +1,13 @@
-# Change Log
+## 0.0.4
+- Adjust git decoration colors
 
-All notable changes to the "ceramic-theme" extension will be documented in this file.
+## 0.0.3
+- Increase color saturation
+- Update semantic token colors
+- Improve diff editor colors
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.2
+- Add debug console colors
 
-## [Unreleased]
-
+## 0.0.1
 - Initial release
