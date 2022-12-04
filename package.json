@@ -1,11 +1,15 @@
 {
   "name": "ceramic-theme",
   "displayName": "Ceramic",
-  "description": "",
-  "version": "0.0.4",
+  "description": "A ceramic toned theme.",
+  "version": "0.0.5",
   "publisher": "jenniferexong",
   "author": {
     "name": "Jennifer Ong"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenniferexong/ceramic-theme"
   },
   "engines": {
     "vscode": "^1.65.0"
@@ -13,6 +17,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "logo.png",
   "contributes": {
     "themes": [
       {
