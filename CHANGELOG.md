@@ -1,3 +1,10 @@
+## 0.0.6
+- Add json colors
+- Add markdown colors
+
+## 0.0.5
+- Add example images to readme
+
 ## 0.0.4
 - Adjust git decoration colors
 - Add symbol icon colors
