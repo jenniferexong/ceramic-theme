@@ -533,6 +533,115 @@
       "settings": {
         "foreground": "#717152"
       }
+    },
+    {
+      "name": "H1 - Markdown",
+      "scope": ["heading.1.markdown"],
+      "settings": {
+        "foreground": "#7d7d3d"
+      }
+    },
+    {
+      "name": "H2 - Markdown",
+      "scope": ["heading.2.markdown"],
+      "settings": {
+        "foreground": "#4b763d"
+      }
+    },
+    {
+      "name": "H3 - Markdown",
+      "scope": ["heading.3.markdown"],
+      "settings": {
+        "foreground": "#2f7179"
+      }
+    },
+    {
+      "name": "H4 - Markdown",
+      "scope": ["heading.4.markdown"],
+      "settings": {
+        "foreground": "#894c41"
+      }
+    },
+    {
+      "name": "H5 - Markdown",
+      "scope": ["heading.5.markdown"],
+      "settings": {
+        "foreground": "#82693e"
+      }
+    },
+    {
+      "name": "H6 - Markdown",
+      "scope": ["heading.6.markdown"],
+      "settings": {
+        "foreground": "#286c54"
+      }
+    },
+    {
+      "name": "Paragraph - Markdown",
+      "scope": ["text.html.markdown"],
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "name": "Link - Markdown",
+      "scope": [
+        "meta.link.inline.markdown",
+        "string.other.link.title.markdown"
+      ],
+      "settings": {
+        "foreground": "#746d2c"
+      }
+    },
+    {
+      "name": "Code block - Markdown",
+      "scope": ["markup.fenced_code.block.markdown"],
+      "settings": {
+        "foreground": "#494945"
+      }
+    },
+    {
+      "name": "Code block content - Markdown",
+      "scope": ["meta.embedded.block"],
+      "settings": {
+        "foreground": "#969696"
+      }
+    },
+    {
+      "name": "Bold - Markdown",
+      "scope": ["markup.bold.markdown"],
+      "settings": {
+        "foreground": "#969696",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bold - Markdown",
+      "scope": ["markup.italic.markdown"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HR - Markdown",
+      "scope": ["meta.separator.markdown"],
+      "settings": {
+        "foreground": "#705128"
+      }
+    },
+    {
+      "name": "Blockquote - Markdown",
+      "scope": ["markup.quote.markdown"],
+      "settings": {
+        "foreground": "#5f733e"
+      }
+    },
+    {
+      "name": "Unnumbered list - Markdown",
+      "scope": ["markup.list.unnumbered.markdown"],
+      "settings": {
+        "foreground": "#1d7479"
+      }
     }
   ]
 }
