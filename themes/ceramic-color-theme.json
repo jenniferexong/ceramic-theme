@@ -126,13 +126,19 @@
     "panelTitle.inactiveForeground": "#695e50",
     "panel.border": "#0d0d0b",
 
-    "terminal.ansiBrightYellow": "#888231",
-    "terminal.ansiYellow": "#888231",
-    "terminal.ansiBrightGreen": "#696417",
-    "terminal.ansiBlue": "#3d607a",
-    "terminal.ansiGreen": "#295c0f",
-    "terminal.ansiBrightRed": "#a31b0087",
+    "terminal.ansiBrightMagenta": "#7c0a41",
+    "terminal.ansiMagenta": "#723351",
     "terminal.ansiRed": "#7a3737",
+    "terminal.ansiBrightRed": "#9a1a0087",
+    "terminal.ansiBrightYellow": "#978825",
+    "terminal.ansiYellow": "#888231",
+    "terminal.ansiBrightGreen": "#5d7a1d",
+    "terminal.ansiGreen": "#295c0f",
+    "terminal.ansiBrightCyan": "#0f7770",
+    "terminal.ansiCyan": "#0a534e",
+    "terminal.ansiBrightBlue": "#037598",
+    "terminal.ansiBlue": "#083e67",
+    "terminal.ansiBrightWhite": "#b4b4b4",
     "terminal.foreground": "#898989",
     "terminal.border": "#3a3939",
     "terminal.selectionBackground": "#000000",
@@ -195,9 +201,11 @@
     "statusBar.debuggingForeground": "#526338",
 
     "gitDecoration.modifiedResourceForeground": "#1f696e",
+    "gitDecoration.renamedResourceForeground": "#4f5580",
     "gitDecoration.stageModifiedResourceForeground": "#1f696e",
     "gitDecoration.addedResourceForeground": "#716b3a",
     "gitDecoration.untrackedResourceForeground": "#4c6c44",
+    "gitDecoration.conflictingResourceForeground": "#9f4623",
     "gitDecoration.deletedResourceForeground": "#7f3744",
     "gitDecoration.stageDeletedResourceForeground": "#7f3744",
     "gitDecoration.ignoredResourceForeground": "#423939",
@@ -305,6 +313,13 @@
       }
     },
     {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#1d6870"
+      }
+    },
+    {
       "name": "Comment",
       "scope": [
         "comment",
@@ -331,7 +346,11 @@
     },
     {
       "name": "Primitive types",
-      "scope": ["support.type.primitive", "keyword.type"],
+      "scope": [
+        "support.type.primitive",
+        "keyword.type",
+        "support.type.builtin"
+      ],
       "settings": {
         "foreground": "#336278",
         "fontStyle": "bold"
@@ -408,9 +427,9 @@
     },
     {
       "name": "Constant variable",
-      "scope": "source variable.other.constant",
+      "scope": ["source variable.other.constant", "variable.other.constant"],
       "settings": {
-        "foreground": "#989898"
+        "foreground": "#786541"
       }
     },
     {
@@ -465,6 +484,54 @@
       ],
       "settings": {
         "foreground": "#6b665c"
+      }
+    },
+    {
+      "name": "JSON Property",
+      "scope": ["variable.other.property", "support.type.property-name"],
+      "settings": {
+        "foreground": "#4f6f56"
+      }
+    },
+    {
+      "name": "JSON Array",
+      "scope": [
+        "punctuation.definition.array.begin",
+        "punctuation.definition.array.end"
+      ],
+      "settings": {
+        "foreground": "#796344",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON Dictionary",
+      "scope": [
+        "punctuation.definition.dictionary.begin",
+        "punctuation.definition.dictionary.end"
+      ],
+      "settings": {
+        "foreground": "#88543e",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON colon",
+      "scope": ["punctuation.separator.dictionary.key-value"],
+      "settings": {
+        "foreground": "#1e767c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON string",
+      "scope": [
+        "string.quoted.double.json",
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json"
+      ],
+      "settings": {
+        "foreground": "#717152"
       }
     }
   ]
