@@ -251,6 +251,7 @@
     "local": "#616c44",
     "property": "#4f6f56",
     "property.declaration": "#4f6f56",
+    "field": "#4f6f56",
     "class": {
       "foreground": "#796344",
       "fontStyle": "bold"
@@ -480,6 +481,8 @@
         "support.class.component",
         "punctuation.definition.tag.begin.tsx",
         "punctuation.definition.tag.end.tsx",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
         "entity.name.tag"
       ],
       "settings": {

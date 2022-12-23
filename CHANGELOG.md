@@ -1,3 +1,7 @@
+## 0.0.7
+- Add semantic token color for field
+- Add color for html tag
+
 ## 0.0.6
 - Add json colors
 - Add markdown colors
